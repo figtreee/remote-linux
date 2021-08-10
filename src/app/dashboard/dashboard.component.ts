@@ -21,7 +21,7 @@ export class DashboardComponent implements OnInit {
             next => {
                 console.log('next', next);
 
-                this.heroes = next.heroArr.slice(1, 5);
+                this.heroes = next.Res.slice(0, 5);
             },
         );
     }
